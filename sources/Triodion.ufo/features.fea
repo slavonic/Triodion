@@ -338,7 +338,6 @@ lookup kernHorizontalKerning {
     pos @kc6_first_4 @kc6_second_30 -25;
     pos @kc6_first_4 @kc6_second_31 -25;
     pos @kc6_first_4 @kc6_second_32 -25;
-    pos @kc6_first_4 @kc6_second_34 -20;
     pos @kc6_first_4 @kc6_second_36 -10;
     pos @kc6_first_4 @kc6_second_37 -25;
     pos @kc6_first_4 @kc6_second_38 -25;
@@ -473,7 +472,6 @@ lookup kernHorizontalKerning {
     pos @kc6_first_11 @kc6_second_27 -25;
     pos @kc6_first_11 @kc6_second_31 -25;
     pos @kc6_first_11 @kc6_second_32 -35;
-    pos @kc6_first_11 @kc6_second_34 -34;
     pos @kc6_first_11 @kc6_second_38 -25;
     pos @kc6_first_11 @kc6_second_43 -9;
     pos @kc6_first_11 @kc6_second_44 -15;
@@ -522,7 +520,6 @@ lookup kernHorizontalKerning {
     pos @kc6_first_13 @kc6_second_30 -25;
     pos @kc6_first_13 @kc6_second_31 -45;
     pos @kc6_first_13 @kc6_second_32 -45;
-    pos @kc6_first_13 @kc6_second_34 -14;
     pos @kc6_first_13 @kc6_second_35 -4;
     pos @kc6_first_13 @kc6_second_36 -25;
     pos @kc6_first_13 @kc6_second_37 -10;
@@ -702,7 +699,6 @@ lookup kernHorizontalKerning {
     pos @kc6_first_23 @kc6_second_31 -15;
     pos @kc6_first_23 @kc6_second_32 -8;
     pos @kc6_first_23 @kc6_second_33 -20;
-    pos @kc6_first_23 @kc6_second_34 -8;
     pos @kc6_first_23 @kc6_second_38 -3;
     pos @kc6_first_23 @kc6_second_39 -50;
     pos @kc6_first_23 @kc6_second_41 -31;
@@ -724,7 +720,6 @@ lookup kernHorizontalKerning {
     pos @kc6_first_24 @kc6_second_28 -10;
     pos @kc6_first_24 @kc6_second_29 -55;
     pos @kc6_first_24 @kc6_second_33 -10;
-    pos @kc6_first_24 @kc6_second_34 -10;
     pos @kc6_first_24 @kc6_second_35 -6;
     pos @kc6_first_24 @kc6_second_36 -25;
     pos @kc6_first_24 @kc6_second_37 -2;
@@ -906,7 +901,6 @@ lookup kernHorizontalKerning {
     pos @kc6_first_34 @kc6_second_31 -20;
     pos @kc6_first_34 @kc6_second_32 -35;
     pos @kc6_first_34 @kc6_second_33 -30;
-    pos @kc6_first_34 @kc6_second_34 -80;
     pos @kc6_first_34 @kc6_second_36 -6;
     pos @kc6_first_34 @kc6_second_39 -90;
     pos @kc6_first_34 @kc6_second_41 -52;
@@ -1123,7 +1117,6 @@ lookup kernHorizontalKerning {
     pos @kc6_first_45 @kc6_second_30 -17;
     pos @kc6_first_45 @kc6_second_31 -18;
     pos @kc6_first_45 @kc6_second_32 -18;
-    pos @kc6_first_45 @kc6_second_34 -14;
     pos @kc6_first_45 @kc6_second_36 -14;
     pos @kc6_first_45 @kc6_second_37 -9;
     pos @kc6_first_45 @kc6_second_38 -13;
@@ -1161,7 +1154,6 @@ lookup kernHorizontalKerning {
     pos @kc6_first_46 @kc6_second_30 -165;
     pos @kc6_first_46 @kc6_second_31 -154;
     pos @kc6_first_46 @kc6_second_32 -181;
-    pos @kc6_first_46 @kc6_second_34 -132;
     pos @kc6_first_46 @kc6_second_36 -140;
     pos @kc6_first_46 @kc6_second_37 -108;
     pos @kc6_first_46 @kc6_second_38 -128;
@@ -1205,7 +1197,6 @@ lookup kernHorizontalKerning {
     pos @kc6_first_48 @kc6_second_27 -13;
     pos @kc6_first_48 @kc6_second_29 -13;
     pos @kc6_first_48 @kc6_second_32 -5;
-    pos @kc6_first_48 @kc6_second_34 -31;
     pos @kc6_first_48 @kc6_second_36 -5;
     pos @kc6_first_48 @kc6_second_38 -7;
     pos @kc6_first_48 @kc6_second_40 -10;
@@ -1242,7 +1233,6 @@ lookup kernHorizontalKerning {
     pos @kc6_first_49 @kc6_second_31 -20;
     pos @kc6_first_49 @kc6_second_32 -60;
     pos @kc6_first_49 @kc6_second_33 15;
-    pos @kc6_first_49 @kc6_second_34 25;
     pos @kc6_first_49 @kc6_second_35 -13;
     pos @kc6_first_49 @kc6_second_36 -29;
     pos @kc6_first_49 @kc6_second_37 -25;
