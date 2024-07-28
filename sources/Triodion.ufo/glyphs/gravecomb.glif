@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb" format="2">
+  <advance width="1"/>
+  <unicode hex="0300"/>
+  <anchor x="-143" y="504" name="_Stacking"/>
+  <anchor x="-182" y="850" name="Stacking"/>
+  <anchor x="-145" y="503" name="_Diacritic"/>
+  <outline>
+    <contour>
+      <point x="-120" y="544" type="line" smooth="yes"/>
+      <point x="-118.517" y="541.033"/>
+      <point x="-117.828" y="537.639"/>
+      <point x="-117.828" y="534.149" type="curve" smooth="yes"/>
+      <point x="-117.828" y="523.522"/>
+      <point x="-124.214" y="512.011"/>
+      <point x="-134" y="509" type="curve" smooth="yes"/>
+      <point x="-137.005" y="508.075"/>
+      <point x="-140.223" y="507.632"/>
+      <point x="-143.482" y="507.632" type="curve" smooth="yes"/>
+      <point x="-154.324" y="507.632"/>
+      <point x="-165.618" y="512.542"/>
+      <point x="-171" y="521" type="curve" smooth="yes"/>
+      <point x="-308" y="735" type="line" smooth="yes"/>
+      <point x="-312" y="742"/>
+      <point x="-303" y="752"/>
+      <point x="-295" y="752" type="curve" smooth="yes"/>
+      <point x="-238" y="752" type="line" smooth="yes"/>
+      <point x="-228" y="752"/>
+      <point x="-220" y="746"/>
+      <point x="-216" y="738" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>508</integer>
+            <key>width</key>
+            <integer>244</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-308</integer>
+            <key>width</key>
+            <integer>188</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
