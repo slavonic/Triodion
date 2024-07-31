@@ -38,6 +38,8 @@
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
     <string>Version 1.002</string>
+    <key>openTypeNameSampleText</key>
+    <string>Хрⷭ҇то́съ воскре́се и҆з̾ ме́ртвыхъ, сме́ртїю сме́рть попра́въ, и҆ сꙋ́щымъ во гробѣ́хъ живо́тъ дарова́въ.</string>
     <key>openTypeOS2WidthClass</key>
     <integer>5</integer>
     <key>openTypeOS2WeightClass</key>
