@@ -1,10 +1,10 @@
 SplineFontDB: 3.2
-FontName: Triodion
+FontName: Triodion-Regular
 FullName: Triodion
 FamilyName: Triodion
 Weight: Regular
-Copyright: Copyright 2013-2024 Aleksandr Andreev and Nikita Simmons (https://sci.ponomar.net/).
-Version: 1.2
+Copyright: Copyright 2013-2024 The Triodion Project Authors (https://github.com/slavonic/Triodion).
+Version: 1.200
 ItalicAngle: 0
 UnderlinePosition: -45
 UnderlineWidth: 7
@@ -20,26 +20,26 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291789194
-ModificationTime: 1722408146
+ModificationTime: 1726383887
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
-OS2TypoAscent: 1126
-OS2TypoAOffset: 0
-OS2TypoDescent: -511
-OS2TypoDOffset: 0
+OS2TypoAscent: 326
+OS2TypoAOffset: 1
+OS2TypoDescent: -311
+OS2TypoDOffset: 1
 OS2TypoLinegap: 0
-OS2WinAscent: 1126
-OS2WinAOffset: 0
-OS2WinDescent: 511
-OS2WinDOffset: 0
-HheadAscent: 1126
-HheadAOffset: 0
-HheadDescent: -511
-HheadDOffset: 0
-OS2Vendor: 'PfEd'
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: '    '
 Lookup: 4 0 0 "'ccmp' Precomposed Glyphs for Cyrillic" { "'ccmp' Precomposed Glyphs for Cyrillic-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Round 2 of Cyrillic Composition" { "'ccmp' Round 2 of Cyrillic Composition-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' Substitution of Uppercase Forms" { "'ccmp' Substitution of Uppercase Forms-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
