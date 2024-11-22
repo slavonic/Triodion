@@ -7,7 +7,7 @@
 # sources/ directory, so all paths should be relative to that
 # directory.
 sources:
-  - Triodion.ufo
+  - Triodion-Regular.ufo
 
 # You don't have to supply the family name, but builds are slightly
 # faster if you do.
