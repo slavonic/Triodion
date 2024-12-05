@@ -189,7 +189,7 @@ lookup Psitruncationwithsuperscript {
 	\divide \oslash \ugrave \uacute \ucircumflex \udieresis \yacute 
 	\ydieresis \dotlessi \OE \oe \circumflex \ring \tilde 
 	\guilsinglleft \guilsinglright \fraction \uni2074 \minus 
-	\uni2215 \uni0470.alt ];
+	\uni2215 \uni0470.alt \uni0468 \uni0469 \uni046C \uni046D ];
     @cc3_ahead_1 = [\uni0470 ];
     @cc3_ahead_2 = [\uni0487 \uni2DE3 \uni2DE5 \uni2DE8 \uni2DEE \uni2DEF \uni2DF5 \uni04860311 
 	\uni2DE00487 \uni2DE10487 \uni2DE20487 \uni2DE60487 \uni2DE70487 
@@ -1397,7 +1397,7 @@ lookup markDiacriticalMarks {
 	<anchor 430 754> mark @Diacritic;
   pos base [\uni047A ] <anchor 900 754> mark @Yerok
 	<anchor 520 800> mark @Diacritic;
-  pos base [\uni0470 \uni0466 \afii10024 \uni0470.alt ] <anchor 690 754> mark @Yerok
+  pos base [\uni0470 \uni0470.alt ] <anchor 690 754> mark @Yerok
 	<anchor 640 754> mark @Diacritic;
   pos base [\uni047C ] <anchor 428 844> mark @Yerok
 	<anchor 430 844> mark @Diacritic;
@@ -1413,7 +1413,9 @@ lookup markDiacriticalMarks {
 	<anchor 330 964> mark @Diacritic;
   pos base [\uni0476 ] <anchor 510 754> mark @Yerok
 	<anchor 290 934> mark @Diacritic;
-  pos base [\uni0473 \afii10091 ] <anchor 548 502> mark @Yerok
+  pos base [\uni0466 \afii10024 ] <anchor 690 754> mark @Yerok
+	<anchor 410 754> mark @Diacritic;
+  pos base [\uni0473 ] <anchor 548 502> mark @Yerok
 	<anchor 345 502> mark @Diacritic;
   pos base [\uni047B ] <anchor 598 502> mark @Yerok
 	<anchor 357 524> mark @Diacritic;
@@ -1433,8 +1435,8 @@ lookup markDiacriticalMarks {
 	<anchor 277 723> mark @Diacritic;
   pos base [\uni0477 ] <anchor 238 692> mark @Yerok
 	<anchor 237 692> mark @Diacritic;
-  pos base [\uni0467 ] <anchor 488 502> mark @Yerok
-	<anchor 327 502> mark @Diacritic;
+  pos base [\uni0467 ] <anchor 487 502> mark @Yerok
+	<anchor 326 502> mark @Diacritic;
   pos base [\uniE8E5 ] <anchor 177 702> mark @Yerok
 	<anchor 177 702> mark @Diacritic;
   pos base [\uniE8E3 \uniE8E1 ] <anchor 77 702> mark @Yerok
@@ -1451,20 +1453,28 @@ lookup markDiacriticalMarks {
 	<anchor 117 502> mark @Diacritic;
   pos base [\uniE901 ] <anchor 117 702> mark @Yerok
 	<anchor 117 702> mark @Diacritic;
-  pos base [\afii10101 \afii10073 \afii10079 \afii10092 \uni044D \uni1C83 ] <anchor 338 502> mark @Yerok
+  pos base [\afii10101 \uni1C83 ] <anchor 338 502> mark @Yerok
 	<anchor 241 502> mark @Diacritic;
-  pos base [\afii10054 \afii10035 ] <anchor 440 754> mark @Yerok
+  pos base [\afii10054 ] <anchor 440 754> mark @Yerok
 	<anchor 270 754> mark @Diacritic;
-  pos base [\afii10102 \uni0463 ] <anchor 458 502> mark @Yerok
+  pos base [\afii10102 ] <anchor 458 502> mark @Yerok
 	<anchor 267 502> mark @Diacritic;
   pos base [\afii10104 ] <anchor 109 702> mark @Yerok
 	<anchor 107 702> mark @Diacritic;
-  pos base [\afii10017 \afii10018 \afii10019 \afii10021 \afii10022 \afii10026 \afii10031 \afii10033 \afii10040 \afii10041 \afii10044 \afii10046 \afii10053 ] <anchor 420 754> mark @Yerok
+  pos base [\afii10017 ] <anchor 420 754> mark @Yerok
 	<anchor 390 754> mark @Diacritic;
+  pos base [\afii10018 \afii10019 ] <anchor 420 754> mark @Yerok
+	<anchor 280 754> mark @Diacritic;
   pos base [\afii10020 ] <anchor 410 754> mark @Yerok
 	<anchor 260 754> mark @Diacritic;
+  pos base [\afii10021 ] <anchor 420 754> mark @Yerok
+	<anchor 420 754> mark @Diacritic;
+  pos base [\afii10022 ] <anchor 420 754> mark @Yerok
+	<anchor 287 754> mark @Diacritic;
   pos base [\afii10025 ] <anchor 550 754> mark @Yerok
 	<anchor 340 754> mark @Diacritic;
+  pos base [\afii10026 \afii10044 ] <anchor 420 754> mark @Yerok
+	<anchor 270 754> mark @Diacritic;
   pos base [\afii10027 ] <anchor 309 1004> mark @Yerok
 	<anchor 308 1003> mark @Diacritic;
   pos base [\afii10028 ] <anchor 414 754> mark @Yerok
@@ -1473,27 +1483,41 @@ lookup markDiacriticalMarks {
 	<anchor 400 754> mark @Diacritic;
   pos base [\afii10030 ] <anchor 720 754> mark @Yerok
 	<anchor 564 754> mark @Diacritic;
+  pos base [\afii10031 ] <anchor 420 754> mark @Yerok
+	<anchor 275 754> mark @Diacritic;
   pos base [\afii10032 ] <anchor 480 754> mark @Yerok
 	<anchor 330 754> mark @Diacritic;
+  pos base [\afii10033 ] <anchor 420 754> mark @Yerok
+	<anchor 274 754> mark @Diacritic;
   pos base [\afii10034 ] <anchor 470 754> mark @Yerok
 	<anchor 317 754> mark @Diacritic;
+  pos base [\afii10035 ] <anchor 440 754> mark @Yerok
+	<anchor 290 754> mark @Diacritic;
   pos base [\afii10036 ] <anchor 530 754> mark @Yerok
 	<anchor 310 754> mark @Diacritic;
   pos base [\uniA64A ] <anchor 446 754> mark @Yerok
 	<anchor 330 754> mark @Diacritic;
-  pos base [\afii10038 \uniA656 ] <anchor 620 754> mark @Yerok
+  pos base [\afii10038 ] <anchor 620 754> mark @Yerok
 	<anchor 370 754> mark @Diacritic;
   pos base [\afii10039 ] <anchor 430 754> mark @Yerok
 	<anchor 300 754> mark @Diacritic;
+  pos base [\afii10040 ] <anchor 420 754> mark @Yerok
+	<anchor 278 754> mark @Diacritic;
+  pos base [\afii10041 ] <anchor 420 754> mark @Yerok
+	<anchor 260 754> mark @Diacritic;
   pos base [\afii10042 ] <anchor 730 754> mark @Yerok
 	<anchor 430 754> mark @Diacritic;
   pos base [\afii10043 ] <anchor 729 754> mark @Yerok
 	<anchor 440 754> mark @Diacritic;
   pos base [\afii10045 ] <anchor 640 754> mark @Yerok
 	<anchor 400 754> mark @Diacritic;
+  pos base [\afii10046 ] <anchor 420 754> mark @Yerok
+	<anchor 300 754> mark @Diacritic;
   pos base [\uni0462 ] <anchor 580 754> mark @Yerok
 	<anchor 340 754> mark @Diacritic;
   pos base [\afii10048 \uni0464 ] <anchor 660 754> mark @Yerok
+	<anchor 380 754> mark @Diacritic;
+  pos base [\uniA656 ] <anchor 620 754> mark @Yerok
 	<anchor 380 754> mark @Diacritic;
   pos base [\afii10065 ] <anchor 310 502> mark @Yerok
 	<anchor 217 502> mark @Diacritic;
@@ -1507,34 +1531,56 @@ lookup markDiacriticalMarks {
 	<anchor 267 502> mark @Diacritic;
   pos base [\afii10070 ] <anchor 201 502> mark @Yerok
 	<anchor 160 502> mark @Diacritic;
-  pos base [\afii10072 \afii10078 \afii10084 ] <anchor 538 502> mark @Yerok
+  pos base [\afii10072 ] <anchor 538 502> mark @Yerok
 	<anchor 328 502> mark @Diacritic;
-  pos base [\afii10074 \afii10077 \afii10089 ] <anchor 318 502> mark @Yerok
+  pos base [\afii10073 \uni044D ] <anchor 338 502> mark @Yerok
+	<anchor 217 502> mark @Diacritic;
+  pos base [\afii10074 ] <anchor 318 502> mark @Yerok
 	<anchor 227 502> mark @Diacritic;
   pos base [\afii10075 ] <anchor 249 772> mark @Yerok
 	<anchor 247 772> mark @Diacritic;
-  pos base [\afii10076 \afii10080 \afii10088 ] <anchor 358 502> mark @Yerok
+  pos base [\afii10076 \afii10088 ] <anchor 358 502> mark @Yerok
 	<anchor 237 502> mark @Diacritic;
+  pos base [\afii10077 ] <anchor 318 502> mark @Yerok
+	<anchor 247 502> mark @Diacritic;
+  pos base [\afii10078 ] <anchor 538 502> mark @Yerok
+	<anchor 387 502> mark @Diacritic;
+  pos base [\afii10079 ] <anchor 338 502> mark @Yerok
+	<anchor 237 502> mark @Diacritic;
+  pos base [\afii10080 ] <anchor 358 502> mark @Yerok
+	<anchor 227 512> mark @Diacritic;
   pos base [\afii10081 ] <anchor 348 502> mark @Yerok
 	<anchor 237 502> mark @Diacritic;
   pos base [\afii10082 ] <anchor 279 502> mark @Yerok
 	<anchor 198 502> mark @Diacritic;
   pos base [\afii10083 ] <anchor 204 502> mark @Yerok
 	<anchor 143 502> mark @Diacritic;
+  pos base [\afii10084 ] <anchor 538 502> mark @Yerok
+	<anchor 344 502> mark @Diacritic;
   pos base [\uniA64B ] <anchor 136 712> mark @Yerok
 	<anchor 137 712> mark @Diacritic;
   pos base [\afii10086 ] <anchor 498 502> mark @Yerok
 	<anchor 327 772> mark @Diacritic;
   pos base [\afii10087 ] <anchor 378 502> mark @Yerok
 	<anchor 227 502> mark @Diacritic;
+  pos base [\afii10089 ] <anchor 318 502> mark @Yerok
+	<anchor 197 502> mark @Diacritic;
   pos base [\afii10090 ] <anchor 558 502> mark @Yerok
 	<anchor 337 502> mark @Diacritic;
+  pos base [\afii10091 ] <anchor 548 502> mark @Yerok
+	<anchor 337 502> mark @Diacritic;
+  pos base [\afii10092 ] <anchor 338 502> mark @Yerok
+	<anchor 227 502> mark @Diacritic;
   pos base [\afii10093 ] <anchor 438 502> mark @Yerok
 	<anchor 297 502> mark @Diacritic;
+  pos base [\uni0463 ] <anchor 458 502> mark @Yerok
+	<anchor 327 882> mark @Diacritic;
   pos base [\afii10096 \uni0465 ] <anchor 398 502> mark @Yerok
 	<anchor 247 502> mark @Diacritic;
-  pos base [\uniA657 \uniA641 ] <anchor 408 502> mark @Yerok
+  pos base [\uniA657 ] <anchor 408 502> mark @Yerok
 	<anchor 287 502> mark @Diacritic;
+  pos base [\afii10053 ] <anchor 420 754> mark @Yerok
+	<anchor 290 754> mark @Diacritic;
   pos base [\uniE904 ] <anchor 311 1010> mark @Yerok
 	<anchor 313 1010> mark @Diacritic;
   pos base [\uni0400 ] <anchor 280 1034> mark @Yerok
@@ -1573,6 +1619,8 @@ lookup markDiacriticalMarks {
 	<anchor 300 714> mark @Yerok;
   pos base [\uni1C82 ] <anchor 138 502> mark @Diacritic
 	<anchor 215 502> mark @Yerok;
+  pos base [\uniA641 ] <anchor 287 502> mark @Diacritic
+	<anchor 522 502> mark @Yerok;
   pos base [\uni046A ] <anchor 460 754> mark @Diacritic
 	<anchor 730 754> mark @Yerok;
   pos base [\uni046B ] <anchor 350 502> mark @Diacritic
@@ -1599,6 +1647,14 @@ lookup markDiacriticalMarks {
 	<anchor 375 519> mark @Yerok;
   pos base [\uni25CC ] <anchor 264 519> mark @Diacritic
 	<anchor 416 518> mark @Yerok;
+  pos base [\uni0468 ] <anchor 978 754> mark @Yerok
+	<anchor 698 754> mark @Diacritic;
+  pos base [\uni0469 ] <anchor 661 502> mark @Yerok
+	<anchor 500 502> mark @Diacritic;
+  pos base [\uni046C ] <anchor 745 754> mark @Diacritic
+	<anchor 1015 754> mark @Yerok;
+  pos base [\uni046D ] <anchor 542 502> mark @Diacritic
+	<anchor 745 502> mark @Yerok;
 } markDiacriticalMarks;
 
 lookup mkmkMarktoMarkinCyrillic {
@@ -1793,7 +1849,8 @@ feature mkmk {
 	\adieresis \aring \ae \igrave \iacute \icircumflex \eth \ograve \oacute \otilde 
 	\divide \oslash \ugrave \uacute \ucircumflex \udieresis \yacute \ydieresis 
 	\dotlessi \OE \oe \circumflex \ring \tilde \guilsinglleft \guilsinglright 
-	\fraction \uni2074 \minus \uni2215 \uni0470.alt ];
+	\fraction \uni2074 \minus \uni2215 \uni0470.alt \uni0468 \uni0469 \uni046C 
+	\uni046D ];
 @GDEF_Ligature = [\uni0450 \uni047C \uni0476 \uni047D \uni0479 \uni0477 \uniE8E5 
 	\uniE8E3 \uniE8E1 \uniE903 \afii10056 \uniE901 \afii10104 \afii10027 \afii10075 
 	\uniE904 \uni0400 \uni0401 \uni0403 \uni040C \uni040D \uni0451 \uni0453 \uni045C 
