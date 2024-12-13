@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291789194
-ModificationTime: 1732785634
+ModificationTime: 1734096835
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -196,7 +196,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 162 27 9
+WinInfo: 297 27 9
 BeginPrivate: 6
 BlueValues 22 [-9 1 437 447 676 686]
 OtherBlues 11 [-145 -135]
@@ -274,11 +274,9 @@ EndChar
 
 StartChar: space
 Encoding: 32 32 2
-Width: 450
+Width: 300
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: period
@@ -2787,11 +2785,9 @@ EndChar
 
 StartChar: nbspace
 Encoding: 160 160 60
-Width: 450
+Width: 300
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uniE8E3
@@ -8476,101 +8472,79 @@ EndChar
 
 StartChar: uni2000
 Encoding: 8192 8192 196
-Width: 500
+Width: 333
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uni2001
 Encoding: 8193 8193 197
-Width: 685
+Width: 457
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uni2002
 Encoding: 8194 8194 198
-Width: 500
+Width: 333
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uni2003
 Encoding: 8195 8195 199
-Width: 685
+Width: 457
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uni2004
 Encoding: 8196 8196 200
-Width: 240
+Width: 160
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uni2005
 Encoding: 8197 8197 201
-Width: 175
+Width: 117
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uni2006
 Encoding: 8198 8198 202
-Width: 115
+Width: 77
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uni2007
 Encoding: 8199 8199 203
-Width: 115
+Width: 77
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uni2008
 Encoding: 8200 8200 204
-Width: 99
+Width: 66
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uni2009
 Encoding: 8201 8201 205
-Width: 82
+Width: 55
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uni200A
 Encoding: 8202 8202 206
-Width: 60
+Width: 40
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uni200B
@@ -8620,11 +8594,9 @@ EndChar
 
 StartChar: uni202F
 Encoding: 8239 8239 212
-Width: 250
+Width: 167
 Flags: W
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: uni2DE1
