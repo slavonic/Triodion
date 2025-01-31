@@ -13,9 +13,9 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>201</integer>
+    <integer>202</integer>
     <key>copyright</key>
-    <string>Copyright 2013-2024 The Triodion Project Authors (https://github.com/slavonic/Triodion).</string>
+    <string>Copyright 2025 The Triodion Project Authors (https://github.com/slavonic/Triodion).</string>
     <key>unitsPerEm</key>
     <integer>1000</integer>
     <key>ascender</key>
@@ -37,7 +37,7 @@
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.201</string>
+    <string>Version 1.202</string>
     <key>openTypeNameSampleText</key>
     <string>Хрⷭ҇то́съ воскре́се и҆з̾ ме́ртвыхъ, сме́ртїю сме́рть попра́въ, и҆ сꙋ́щымъ во гробѣ́хъ живо́тъ дарова́въ.</string>
     <key>openTypeOS2WidthClass</key>
