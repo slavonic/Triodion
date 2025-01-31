@@ -189,7 +189,8 @@ lookup Psitruncationwithsuperscript {
 	\divide \oslash \ugrave \uacute \ucircumflex \udieresis \yacute 
 	\ydieresis \dotlessi \OE \oe \circumflex \ring \tilde 
 	\guilsinglleft \guilsinglright \fraction \uni2074 \minus 
-	\uni2215 \uni0470.alt \uni0468 \uni0469 \uni046C \uni046D ];
+	\uni2215 \uni0470.alt \uni0468 \uni0469 \uni046C \uni046D 
+	\uni0480 \uni0481 \uniA642 \uniA643 \uni1C85 ];
     @cc3_ahead_1 = [\uni0470 ];
     @cc3_ahead_2 = [\uni0487 \uni2DE3 \uni2DE5 \uni2DE8 \uni2DEE \uni2DEF \uni2DF5 \uni04860311 
 	\uni2DE00487 \uni2DE10487 \uni2DE20487 \uni2DE60487 \uni2DE70487 
@@ -1382,6 +1383,7 @@ lookup markDiacriticalMarks {
   markClass [\uni2DF2 ] <anchor -158 480> @Diacritic;
   markClass [\uni2DF3 \uni2DF30487 ] <anchor -162 480> @Diacritic;
   markClass [\uni2DFD ] <anchor -180 480> @Diacritic;
+  markClass [\uniA66F ] <anchor -121 500> @Diacritic;
   markClass [\uniA675 ] <anchor -241 453> @Diacritic;
   markClass [\uni2DE00487 ] <anchor -172 467> @Diacritic;
   markClass [\uni2DEB0487 ] <anchor -168 480> @Diacritic;
@@ -1389,6 +1391,7 @@ lookup markDiacriticalMarks {
   markClass [\uni2DF20487 ] <anchor -155 480> @Diacritic;
   markClass [\uni0360 ] <anchor -275 542> @Diacritic;
   markClass [\uF0023 ] <anchor -72 520> @Diacritic;
+  markClass [\uni0484 ] <anchor -178 522> @Diacritic;
   pos base [\uni0443 ] <anchor 368 502> mark @Yerok
 	<anchor 237 502> mark @Diacritic;
   pos base [\uni0450 ] <anchor 144 801> mark @Yerok
@@ -1553,8 +1556,8 @@ lookup markDiacriticalMarks {
 	<anchor 237 502> mark @Diacritic;
   pos base [\afii10082 ] <anchor 279 502> mark @Yerok
 	<anchor 198 502> mark @Diacritic;
-  pos base [\afii10083 ] <anchor 204 502> mark @Yerok
-	<anchor 143 502> mark @Diacritic;
+  pos base [\afii10083 ] <anchor 183 502> mark @Diacritic
+	<anchor 204 502> mark @Yerok;
   pos base [\afii10084 ] <anchor 538 502> mark @Yerok
 	<anchor 344 502> mark @Diacritic;
   pos base [\uniA64B ] <anchor 136 712> mark @Yerok
@@ -1565,7 +1568,7 @@ lookup markDiacriticalMarks {
 	<anchor 227 502> mark @Diacritic;
   pos base [\afii10089 ] <anchor 318 502> mark @Yerok
 	<anchor 197 502> mark @Diacritic;
-  pos base [\afii10090 ] <anchor 558 502> mark @Yerok
+  pos base [\afii10090 \uni1C85 ] <anchor 558 502> mark @Yerok
 	<anchor 337 502> mark @Diacritic;
   pos base [\afii10091 ] <anchor 548 502> mark @Yerok
 	<anchor 337 502> mark @Diacritic;
@@ -1619,7 +1622,9 @@ lookup markDiacriticalMarks {
 	<anchor 300 714> mark @Yerok;
   pos base [\uni1C82 ] <anchor 138 502> mark @Diacritic
 	<anchor 215 502> mark @Yerok;
-  pos base [\uniA641 ] <anchor 287 502> mark @Diacritic
+  pos base [\uniA640 \uniA642 ] <anchor 300 754> mark @Diacritic
+	<anchor 446 754> mark @Yerok;
+  pos base [\uniA641 \uniA643 ] <anchor 287 502> mark @Diacritic
 	<anchor 522 502> mark @Yerok;
   pos base [\uni046A ] <anchor 460 754> mark @Diacritic
 	<anchor 730 754> mark @Yerok;
@@ -1655,6 +1660,10 @@ lookup markDiacriticalMarks {
 	<anchor 1015 754> mark @Yerok;
   pos base [\uni046D ] <anchor 542 502> mark @Diacritic
 	<anchor 745 502> mark @Yerok;
+  pos base [\uni0480 ] <anchor 326 754> mark @Diacritic
+	<anchor 486 754> mark @Yerok;
+  pos base [\uni0481 ] <anchor 247 502> mark @Diacritic
+	<anchor 368 502> mark @Yerok;
 } markDiacriticalMarks;
 
 lookup mkmkMarktoMarkinCyrillic {
@@ -1690,6 +1699,7 @@ lookup mkmkMarktoMarkinCyrillic {
   markClass [\uni2DE1 ] <anchor -152 480> @Stacking;
   markClass [\uni2DE2 ] <anchor -181 478> @Stacking;
   markClass [\uni04860311 ] <anchor -297 613> @Stacking;
+  markClass [\uniA66F ] <anchor -121 500> @Stacking;
   markClass [\uniA675 ] <anchor -240 453> @Stacking;
   markClass [\uni2DE00487 ] <anchor -172 467> @Stacking;
   markClass [\uni2DE60487 \uni2DE70487 \uni2DF00487 \uni2DFD0487 ] <anchor -182 480> @Stacking;
@@ -1697,6 +1707,7 @@ lookup mkmkMarktoMarkinCyrillic {
   markClass [\uni2DF30487 ] <anchor -162 480> @Stacking;
   markClass [\uni0360 ] <anchor -275 543> @Stacking;
   markClass [\uF0023 ] <anchor -71 520> @Stacking;
+  markClass [\uni0484 ] <anchor -176 522> @Stacking;
   pos mark [\acutecomb ] <anchor -232 861> mark @Stacking;
   pos mark [\gravecomb ] <anchor -182 850> mark @Stacking;
   pos mark [\uni0486 ] <anchor -182 856> mark @Stacking;
@@ -1738,6 +1749,7 @@ lookup mkmkMarktoMarkinCyrillic {
   pos mark [\uni2DF2 \uni2DF4 ] <anchor -160 866> mark @Stacking;
   pos mark [\uni2DF3 ] <anchor -164 866> mark @Stacking;
   pos mark [\uni2DF5 ] <anchor -160 906> mark @Stacking;
+  pos mark [\uniA66F ] <anchor -123 846> mark @Stacking;
   pos mark [\uniA675 ] <anchor -268 726> mark @Stacking;
   pos mark [\uni2DE00487 ] <anchor -182 994> mark @Stacking;
   pos mark [\uni2DE60487 ] <anchor -194 996> mark @Stacking;
@@ -1749,6 +1761,7 @@ lookup mkmkMarktoMarkinCyrillic {
   pos mark [\uni2DF30487 ] <anchor -174 996> mark @Stacking;
   pos mark [\uni0360 ] <anchor -272 889> mark @Stacking;
   pos mark [\uni2DFD0487 ] <anchor -180 998> mark @Stacking;
+  pos mark [\uni0484 ] <anchor -178 868> mark @Stacking;
 } mkmkMarktoMarkinCyrillic;
 
 feature kern {
@@ -1837,20 +1850,20 @@ feature mkmk {
 	\uni0460.alt \u1f545.alt1 \u1f545.alt2 \u1f545.alt3 \u1f545.alt4 \u1f545.alt5 
 	\u1f545.alt6 \u1f545.alt7 \u1F311 \u1F312 \u1F313 \u1F314 \u1F315 \u1F316 
 	\u1F317 \u1F318 \u1F319 \u1F347 \u1F377 \u1F41F \u1F540 \u1F541 \u1F542 \u1F543 
-	\u1F544 \u1F545 \asciitilde \uni046A \uni046B \uni0463.trunc \uniA66F \uniA67D 
-	\uniA67F \uniE92A \uniE92B \uni1C81 \uni1C83 \uni0464 \uni0465 \uni0409 \uni040A 
-	\uni040B \uni040F \uni0459 \uni045A \uni045B \uni045F \uni0452 \uni0402 \uni0484 
-	\uni25CC \uni007F \exclamdown \cent \sterling \yen \brokenbar \dieresis 
-	\copyright \ordfeminine \registered \macron \plusminus \uni00B2 \uni00B3 \mu 
-	\cedilla \uni00B9 \ordmasculine \onequarter \onehalf \threequarters 
-	\questiondown \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Igrave \Iacute 
-	\Icircumflex \Eth \Ograve \Oacute \Otilde \multiply \Oslash \Ugrave \Uacute 
-	\Ucircumflex \Udieresis \Yacute \germandbls \aacute \acircumflex \atilde 
-	\adieresis \aring \ae \igrave \iacute \icircumflex \eth \ograve \oacute \otilde 
-	\divide \oslash \ugrave \uacute \ucircumflex \udieresis \yacute \ydieresis 
-	\dotlessi \OE \oe \circumflex \ring \tilde \guilsinglleft \guilsinglright 
-	\fraction \uni2074 \minus \uni2215 \uni0470.alt \uni0468 \uni0469 \uni046C 
-	\uni046D ];
+	\u1F544 \u1F545 \asciitilde \uni046A \uni046B \uni0463.trunc \uniA67D \uniA67F 
+	\uniE92A \uniE92B \uni1C81 \uni1C83 \uni0464 \uni0465 \uni0409 \uni040A \uni040B 
+	\uni040F \uni0459 \uni045A \uni045B \uni045F \uni0452 \uni0402 \uni25CC \uni007F 
+	\exclamdown \cent \sterling \yen \brokenbar \dieresis \copyright \ordfeminine 
+	\registered \macron \plusminus \uni00B2 \uni00B3 \mu \cedilla \uni00B9 
+	\ordmasculine \onequarter \onehalf \threequarters \questiondown \Aacute 
+	\Acircumflex \Atilde \Adieresis \Aring \AE \Igrave \Iacute \Icircumflex \Eth 
+	\Ograve \Oacute \Otilde \multiply \Oslash \Ugrave \Uacute \Ucircumflex 
+	\Udieresis \Yacute \germandbls \aacute \acircumflex \atilde \adieresis \aring 
+	\ae \igrave \iacute \icircumflex \eth \ograve \oacute \otilde \divide \oslash 
+	\ugrave \uacute \ucircumflex \udieresis \yacute \ydieresis \dotlessi \OE \oe 
+	\circumflex \ring \tilde \guilsinglleft \guilsinglright \fraction \uni2074 
+	\minus \uni2215 \uni0470.alt \uni0468 \uni0469 \uni046C \uni046D \uni0480 
+	\uni0481 \uniA642 \uniA643 \uni1C85 ];
 @GDEF_Ligature = [\uni0450 \uni047C \uni0476 \uni047D \uni0479 \uni0477 \uniE8E5 
 	\uniE8E3 \uniE8E1 \uniE903 \afii10056 \uniE901 \afii10104 \afii10027 \afii10075 
 	\uniE904 \uni0400 \uni0401 \uni0403 \uni040C \uni040D \uni0451 \uni0453 \uni045C 
@@ -1861,9 +1874,9 @@ feature mkmk {
 	\uni2DE5 \uni2DE10487 \uni04860300.upper \uni0487 \uniA67C \uni0306 \uni0307 
 	\uni0308 \uni030F \uni0485 \uni2DE1 \uni2DE2 \uni2DE9 \uni2DEA \uni2DEC \uni2DED 
 	\uni2DF1 \uni04860311 \uni2DE0 \uni2DE6 \uni2DE7 \uni2DE8 \uni2DEB \uni2DEE 
-	\uni2DF0 \uni2DF2 \uni2DF3 \uni2DF4 \uni2DF5 \uni2DFD \uniA675 \uni2DE00487 
-	\uni2DE60487 \uni2DE70487 \uni2DEB0487 \uni2DEE0487 \uni2DF00487 \uni2DF20487 
-	\uni2DF30487 \uni0360 \uni2DFD0487 \uF0023 ];
+	\uni2DF0 \uni2DF2 \uni2DF3 \uni2DF4 \uni2DF5 \uni2DFD \uniA66F \uniA675 
+	\uni2DE00487 \uni2DE60487 \uni2DE70487 \uni2DEB0487 \uni2DEE0487 \uni2DF00487 
+	\uni2DF20487 \uni2DF30487 \uni0360 \uni2DFD0487 \uF0023 \uni0484 ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
